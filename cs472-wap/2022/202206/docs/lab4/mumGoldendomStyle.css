@@ -1,0 +1,42 @@
+.text1{
+    font:  sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    font-style: normal;
+    background-color: rgb(82, 238, 204);
+    box-sizing: content-box;
+
+}
+.text2{
+    font:  sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    background-color: rgb(82, 238, 204);
+}
+.text3{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(82, 238, 204);
+    
+}
+
+.text4{
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgb(82, 238, 204);
+    align-content: flex-end;
+    
+}
+.text5{
+    align-content: flex-end;
+}
+#text6{
+text-align: center;
+}
+#text7{
+text-align: center;
+}
