@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MUM Golden DOME Market:::SRM System</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Supplier</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <span>Hello!</span>
+                  <button class="btn btn-outline-success" type="submit">Sign out</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>New Product Form</h2>
+            <!--Two column grid-->
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <label for="productNumber">Product Number</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Enter Procdut" name="productNumber" id="productNumber" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <label for="quantityInStock">Quantity In Stock</label>
+                        </div>
+                        <div>
+                            <input type="text" name="quantityInStock" id="quantityInStock" class="form-control">
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
