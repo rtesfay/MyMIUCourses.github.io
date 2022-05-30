@@ -1,12 +1,18 @@
 .text1{
+    
+    padding: 40px;
     font:  sans-serif;
-    font-size: x-large;
+    font-size: xlarge;
     font-weight: bold;
     color: white;
     font-style: normal;
+    float: inline-start;
     background-color: rgb(82, 238, 204);
-    box-sizing: content-box;
 
+}
+#product{
+    padding: 40px;
+    
 }
 .text2{
     font:  sans-serif;
@@ -14,12 +20,13 @@
     font-weight: bold;
     font-style: normal;
     color: white;
-    text-align: center;
+float: inline-end;
     background-color: rgb(82, 238, 204);
 }
 .text3{
     font-size: x-large;
     font-weight: bold;
+    float: inline-end;
     background-color: rgb(82, 238, 204);
     
 }
@@ -37,7 +44,11 @@
 }
 #text6{
 text-align: center;
+align-items: flex-end;
 }
 #text7{
 text-align: center;
+}
+#text8{
+    font-size: x-small;
 }
