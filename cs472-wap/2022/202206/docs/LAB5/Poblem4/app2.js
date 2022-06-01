@@ -7,9 +7,9 @@
  * 
  */
  function multiply(arr){
-    let sum=0;
+    let multiply=0;
     for(let i=0; i<arr.length; i++){
-        sum+=arr[i];
+        multiply*=arr[i];
     }
     console.log(multiply[2,4,1]);
 }
