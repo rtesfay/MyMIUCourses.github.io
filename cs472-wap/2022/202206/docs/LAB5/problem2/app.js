@@ -3,12 +3,15 @@ function maxOfThree(x,y,z){
 
     if((x > y)&&(x>z)) {
         max = x;
+    }
+        else if((y > x)&&(y>z)) {
+            max = y;
+    
     } else {
-        max = x;
+        max = z;
     }
     return max;
 }
-
-    maxOfThree();
-    console.log(maxOfThree(5,6,7));
+    
+    console.log (maxOfThree(100,1,70));
 

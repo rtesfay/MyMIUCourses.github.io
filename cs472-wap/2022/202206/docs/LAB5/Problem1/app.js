@@ -1,4 +1,4 @@
-function max(x, y) {
+function maxOfTwo(x, y) {
     let max;
 
     if(y > x) {
@@ -9,4 +9,4 @@ function max(x, y) {
     return max;
 }
 
-console.log(max(5,10));
+console.log(maxOfTwo(15,10));
