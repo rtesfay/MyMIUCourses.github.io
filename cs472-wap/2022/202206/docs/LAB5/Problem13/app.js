@@ -10,3 +10,6 @@
  * and printFibo(n=10, a=0, b=1), 
  * prints-out: "0, 1, 1, 2, 3, 5, 8, 13, 21, 34", as output).
  */
+function printFibo(n, a, b){
+
+}

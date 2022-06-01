@@ -14,5 +14,4 @@ function printOddNumbersOnly(Array){
     return newArr;
 
 }
-newArr=[4,5,8,7]
-console.log(printOddNumbersOnly(newArr));
+console.log(printOddNumbersOnly(newArr=[4,5,8,7]));
