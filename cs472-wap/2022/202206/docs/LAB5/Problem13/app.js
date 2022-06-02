@@ -10,6 +10,26 @@
  * and printFibo(n=10, a=0, b=1), 
  * prints-out: "0, 1, 1, 2, 3, 5, 8, 13, 21, 34", as output).
  */
-function printFibo(n, a, b){
 
+ function printFibo(n,a,b){
+    let sum = 0;
+    let result = [];
+    if(n == 1){
+        return a + " ";
 }
+    if(n==2){
+        return a + ","+ b;
+    }
+    result.push(a);
+    result.push(b);
+    for (let index = 2; index < n; index++) {
+        sum = a+b;
+        a = b;
+        b = sum;
+        result.push(sum);
+        
+    }
+    return result.toString();
+}
+console.log(`The fibonacci seqeunce is ${printFibo(6,0,1)}`);
+

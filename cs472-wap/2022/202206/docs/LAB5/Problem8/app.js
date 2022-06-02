@@ -6,7 +6,7 @@
  * code without using Imperative programming. i.e. Do NOT use any explicit 
  * looping construct; instead use functional programming style/approach.
  */
-function computeSumOfSquares(Array, numbers){
+function computeSumOfSquares(Array){
     sum=0;
     for(let i=0; i<Array.length; i++){
         sum+= Array[i]*Array[i];

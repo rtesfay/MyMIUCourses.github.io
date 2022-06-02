@@ -3,14 +3,14 @@
  *  and an integer i and returns a new array containing only those words 
  * that were longer than i characters.
  */
-function filterLongWords(Array,int){
-   var newArr=new Array();
-   var int;
-    for(let i=0; i<Array.length; i++){
-        if(Array[i].length>int){
-newArr[i];
+
+ function filterLongWords(arr,int){
+    let result = [];
+    for(let index=0; index< arr.length;index++){
+        if(arr[index].length > int){
+            result.push(arr[index]);
         }
     }
-return newArr;
+    return result;
 }
-console.log(filterLongWords(["hi","hey","hello"], 2));
+console.log(filterLongWords(['Hi', 'Hello', 'hey', 'there'], 4));

@@ -3,12 +3,8 @@
 For example, reverse("jag testar") should return the string "ratset gaj".
  */
 
-function reverse(reversedStr){
+function reverseString(ch){
 
-    for(let i=reverse.length; i>0; i--){
-
-        reversedStr[i];
-        }
-        console.log(reverse("HELLO"))
-
-    }
+    return ch.split('').reverse().join('');
+}
+console.log(reverseString('jag tester'));

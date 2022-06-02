@@ -4,3 +4,7 @@
  * Imperative programming. i.e. Do NOT use any explicit looping construct; 
  * instead use functional programming style/approach. 
  */
+ function multiply(arr){
+    return arr.reduce((x,y)=>x*y,1);
+ }
+console.log(multiply([2,4,1]));

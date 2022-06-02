@@ -6,13 +6,12 @@
  * should be computed as 22 +42 = 20.
  */
 function computeSumOfSquaresOfEvensOnly(Array){
-    var newArray=new Array();
+    let sum=0;
     for(let i=0; i<Array.length; i++){
-        sum=0;
         if(Array[i]%2==0)
-        sum+=newArray[i]*newArray[i];
+        sum+=Array[i]*Array[i];
     }
-    return newArray;
+    return sum;
 
 }
-console.log(computeSumOfSquaresOfEvensOnly([2,1,4,0]));
+console.log(computeSumOfSquaresOfEvensOnly([4,1,4,0]));

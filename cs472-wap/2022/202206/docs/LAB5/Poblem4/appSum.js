@@ -11,5 +11,6 @@ function sum(arr){
     for(let i=0; i<arr.length; i++){
         sum+=arr[i];
     }
-    console.log(sum[2,4,0,1]);
+    return sum;
 }
+console.log(sum([2,4,0,1]));

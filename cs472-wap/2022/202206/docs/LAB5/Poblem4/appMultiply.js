@@ -7,9 +7,10 @@
  * 
  */
  function multiply(arr){
-    let multiply=0;
+    let multiply=1;
     for(let i=0; i<arr.length; i++){
         multiply*=arr[i];
     }
-    console.log(multiply[2,4,1]);
+    return multiply;
 }
+console.log(multiply([2,4,1]));
