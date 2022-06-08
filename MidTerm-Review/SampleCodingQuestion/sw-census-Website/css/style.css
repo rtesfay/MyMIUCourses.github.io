@@ -1,0 +1,34 @@
+#spanDateTime{
+    color: #fff;
+
+}
+#sw-census-logo{
+    float: right;
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #cfcfcf;
+    width: 100vw;
+    display: flex;
+    min-height: 8vh;
+    align-items: center;
+}
+footer > section{
+    display: flex;
+    width: 50%;
+}
+footer > section.footer-section-right {
+    justify-content: end;
+}
+
+footer > section.footer-section-right span{
+    justify-content: right;
+margin: 0 1em 0 1em;
+}
+footer > section.footer-section-left span{
+    justify-content: left;
+    margin: 0 1em 0 1em;
+
+}

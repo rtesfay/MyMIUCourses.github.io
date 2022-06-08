@@ -1,0 +1,57 @@
+.my-navbar{
+    background-color: orangered;
+    color: white;
+}
+
+.motto{
+    font-style: italic;
+}
+img{
+    width: 100%;
+    height: 20em;
+}
+.my-heading{
+    font-size: 1.20em;
+    padding-top: 1%;
+}
+.my-sub-heading{
+    font-size: 1em;
+    padding-top: 1%;
+
+}
+.address-info{
+    padding: 0%;
+}
+.my-footer{ 
+    position: fixed;
+    background-color: rgb(238, 238, 238);
+    height: 4%;
+    width: 100%;
+    display: flex;
+    bottom: 0%;
+}
+.left-footer{
+    width: 50%;
+}
+.right-footer{
+    width: 50%;
+    position: relative;
+    left: 43%;
+}
+.my-btn{
+    width: 33%;
+    padding-top: 7%;
+    position: relative;
+    left: 35%;
+}
+#my-submit-btn{
+    width: 33%;
+    position: relative;
+    left: 35%;
+    background-color: orangered;
+    color: white;
+
+}
+.my-col{
+    padding-top: 2%;
+}

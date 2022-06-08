@@ -1,0 +1,19 @@
+.paraph1{
+    display: inline;
+    float: left;
+
+}
+.paraph2{
+  display: inline;
+    float: center;
+
+}
+.paraph3{
+   display: inline;
+    float: right;
+}
+#HelloPage{
+    color: white;
+}
+#corporate{
+}
