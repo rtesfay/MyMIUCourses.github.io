@@ -1,7 +1,7 @@
 'use strict'
 window.onload=function(){
-    const censusForm=document.getElementById("New Account Form");
-    censusForm.addEventListener("CreateNewAccount",event=>{
+    const censusForm=document.getElementById("censusForm");
+    censusForm.addEventListener("submit",event=>{
         event.preventDefault();
 
 
